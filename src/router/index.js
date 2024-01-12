@@ -44,6 +44,16 @@ const routes = [
     name: "Todo App",
     component: () => import('@/components/Sample/TodoApp.vue')
   },
+  {
+    path: "/calculator",
+    name: "Calculator",
+    component: () => import('@/components/Sample/Calculator.vue')
+  },
+  {
+    path: "/account",
+    name: "Account",
+    component: () => import('@/components/Sample/Account.vue')
+  },
 ];
 console.log('process', import.meta.env.BASE_URL)
 

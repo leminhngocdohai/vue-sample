@@ -46,6 +46,8 @@ export default {
 <!--    ></Grid>-->
     <div class="nav">
       <router-link to="/todo-app">Todo App</router-link>
+      <router-link to="/calculator">Calculator</router-link>
+      <router-link to="/account">Account</router-link>
     </div>
     <div class="container">
       <router-view></router-view>
